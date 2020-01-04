@@ -1,0 +1,148 @@
+html {
+    scroll-behavior: smooth;
+  }
+.bg-img {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.123),
+        rgba(0, 0, 0, 0.322)
+      ),url("/static/images/landing3.jpg");
+    /* opacity: 0.9; */
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+    
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+  }
+.heading {
+    margin-top: 50px;
+    font-family:'Montserrat', sans-serif ;
+}
+
+#wrapper .text5 {
+  position:relative;
+  bottom:30px;
+  left:0px;
+  visibility:hidden;
+  padding-top: 50px;
+  font-size: 20px;
+  }
+  
+#wrapper:hover .text5 {
+  visibility:visible;
+}
+
+#wrapper2 .text2 {
+  position:relative;
+  bottom:30px;
+  left:0px;
+  visibility:hidden;
+  padding-top: 50px;
+  font-size: 20px;
+  }
+  
+#wrapper2:hover .text2 {
+  visibility:visible;
+}
+#wrapper3 .text3 {
+  position:relative;
+  bottom:30px;
+  left:0px;
+  visibility:hidden;
+  padding-top: 50px;
+  font-size: 20px;
+  }
+  
+#wrapper3:hover .text3 {
+  visibility:visible;
+}
+
+.zoom {
+  padding: 50px;
+  /* background-color: green; */
+  transition: transform .2s; /* Animation */
+  /* width: 200px;
+  height: 200px; */
+ 
+}
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.centered1{
+  position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 4%;
+    /* height: 0%; */
+}
+.experience-img{
+  
+    float: left;
+  }
+#experience{
+  overflow: hidden;
+}
+.container1 {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(207, 187, 6, 0.986);
+}
+
+.container1:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.solid1 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.322)
+    ),url("/static/images/solid2.jpg");
+  /* opacity: 0.9; */
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  
+  
+}
