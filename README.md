@@ -11,7 +11,7 @@
 
 ## Bugs and Issues
 
-Have a bug or an issue ? [send me an email](tyrahans17@gmail.com) 
+Have a bug or an issue ? send me an email - tyrahans17@gmail.com 
 
 ## About
 Code released under the MIT license.

@@ -1,0 +1,6 @@
+<h2>Contact me</h2>
+<form method="post" action="{% url 'contact' %}">
+    {% csrf_token %}
+    <textarea name="message" placeholder="Message"></textarea>
+    <input type="submit" value="Submit" />
+</form>

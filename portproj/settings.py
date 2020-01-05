@@ -113,3 +113,15 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
+
+# sendgrid and zoho settings
+# SEND_GRID_API_KEY = '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'
+EMAIL_HOST = 'smtp.zoho.com'
+EMAIL_HOST_USER = 'tyrahans17@zohomail.com'
+EMAIL_HOST_PASSWORD = 'Daressalaam11'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+# DEFAULT_FROM_EMAIL = 'tyrahans17@gmail.com'
+ACCOUNT_EMAIL_SUBJECT_PREFIX = 'Contact email received from my portfolio website '
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+

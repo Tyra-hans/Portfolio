@@ -4,13 +4,37 @@
 
 <div class="container-fluid bg-img" style="width: 100%; height:740px;">
     <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">Tyra Hans</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarColor03">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#strengths">strengths</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#recent-work">recent work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#experience">experience</a>
+                </li>
+              </ul>
+             
+            </div>
+          </nav>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 centered">
-            <img src="static/images/me2.jpg" alt="" style="border-radius: 50%; width: 20%;transform: translate(200%, 20%);">
+            <img src="static/images/me2.jpg" alt="" style="border-radius: 50%; width: 20%;transform: translate(200%, 20%);"  class="wow fadeIn ">
            
-                <h1 class="text-center" style="padding-top:50px ;">Tyra Hans</h1>
+                <h1 class="text-center wow slideInDown" style="padding-top:50px ;" data-wow-delay="0.2s">Tyra Hans</h1>
                 
-                <p class="text-center">fullstack developer</p>
-                <div class="container">
+                <p class="text-center wow fadeIn" data-wow-delay="0.3s">fullstack developer</p>
+                <div class="container wow bounceInUp">
                     <a href="#strengths"><img src="static/images/arrow-down.png" alt="" class="centered1 hvr-grow" style="padding-top: 120px;"></a>
                 </div>
         </div>
@@ -18,27 +42,27 @@
 </div>
 <!--============================ strengths section========================== -->
 
-<div class="container" id="strengths">
+<div class="container text-center" id="strengths">
 <h1 class="text-center heading "style="padding: 50px;padding-bottom:60px;">Strengths</h1>
 <div class="row">
     
-        <div class="col-md-4" id="wrapper">
-            <img src="static/images/task.png" alt=""  class="hover hvr-grow" style="transform: translate(50%, -50%);">
+        <div class="col-md-4 wow slideInLeft " id="wrapper" >
+            <img src="static/images/task.png" alt=""  class="hover hvr-grow">
             <h5>organize</h5>
         <p class="text5">I self-manage, work well with deadlines and deliver</p>
        
         </div>
-        <div class="col-md-4" id="wrapper2">
-            <img src="static/images/communicate.png" alt=""  class="hover2 hvr-grow" style="transform: translate(50%, -50%);">
+        <div class="col-md-4 wow slideInUp" id="wrapper2" data-wow-delay="0.2s" >
+            <img src="static/images/communicate.png" alt=""  class="hover2 hvr-grow" >
             <h5>communicate</h5>
             <p class="text2">I explain things clearly, communicate problems quickly and write accurately and concisely.</p>
         </div>
-        <div class="col-md-4" id="wrapper3">
-            <img src="static/images/brain1.png" alt=""  class="hover3 hvr-grow" style="width: 20% ;transform: translate(50%, -50%);">
+        <div class="col-md-4 wow slideInRight" id="wrapper3" data-wow-delay="0.3s">
+            <img src="static/images/brain1.png" alt=""  class="hover3 hvr-grow" style="width: 20% ;">
             <h5>solve problems</h5>
             <p class="text3">I take vague problems and requirements and break them down into steps and solutions whether in a team or individually.</p>
         </div>
-        <div class="container">
+        <div class="container" style="padding-bottom: 70px;">
             <a href="#recent-work"><img src="static/images/down-button.png" alt="" class="centered1 hvr-grow" style="padding-bottom: 50px;" ></a>
         </div>
    
@@ -46,34 +70,34 @@
 </div>
 
 <div class="container-fluid  solid1" id="recent-work" style="width: 100%; height:950px;">
-    <h1 class="text-center heading" style="padding: 50px;">Recent Work</h1>
+    <h1 class="text-center heading wow fadeIn" style="padding: 50px;">Recent Work</h1>
     <div class="row">
         
-             <div class="col-md-6 container1">
+             <div class="col-md-6 container1 wow slideInDown">
                 <a href="https://tyra-hans.github.io/Quoteme-/"><img src="static/images/quoteme.png" alt="" style="width:100%;" class="zoom image"></a>
                 <div class="overlay">
                     <div class="text">Quoteme- an fun app for quotes </div>
                   </div>
-            </div>
-            <div class="col-md-6 container1">
+            </div> 
+            <div class="col-md-6 container1 wow slideInUp">
                 <a href="https://tyra-hans.github.io/Ave-Cesare/"><img src="static/images/avecesare.png" alt="" style="width:100%;" class="zoom image"></a>
                 <div class="overlay">
                     <div class="text">Ave cesare- a pizza delivery web app</div>
                   </div>
             </div>
-            <div class="col-md-6 container1">
+            <div class="col-md-6 container1 wow slideInLeft">
                 <a href="https://rat3me.herokuapp.com/"><img src="static/images/rateme.png" alt="" style="width:100%" class="zoom image"></a>
                 <div class="overlay">
                     <div class="text">Rate.me- a web app for posting and rating projects</div>
                   </div>
             </div>
-            <div class="col-md-6 container1">
+            <div class="col-md-6 container1 wow slideInRight">
                 <a href="https://saf3side.herokuapp.com/"><img src="static/images/safeside.png" alt="" style="width:100%; border-color: black;" class="zoom image"></a>
                 <div class="overlay">
                     <div class="text">SafeSide- a weather app that identifies extreem weather in any city in the world</div>
                   </div>
             </div>
-            <div class="container">
+            <div class="container" >
                 <a href="#experience"><img src="static/images/arrow-down.png" alt="" class="centered1 hvr-grow" ></a>
             </div>
             
@@ -82,10 +106,10 @@
 </div>
 
 <div class="container" id="experience">
-    <h1 class="text-center heading" style="padding: 50px;">Experience</h1>
+    <h1 class="text-center heading wow fadeIn" style="padding: 50px;" data-wow-delay="0.3s">Experience</h1>
     <div class="row ">
         
-            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 hvr-grow" style="padding-bottom: 30px;">
+            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 hvr-grow wow fadeIn" style="padding-bottom: 30px;" data-wow-delay="0.3s">
                 <a href="https://moringaschool.com/"><img src="static/images/moringalogo.png" alt="" class="experience-img" style="width: 20%;border-radius: 50%;"></a>
                
                 <h3 class="experience-txt" >Moringa School</h3>
@@ -97,7 +121,7 @@
                 </ul>
                 <br>
             </div>
-            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 hvr-grow" style="padding-bottom: 30px;">
+            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 hvr-grow wow fadeIn" style="padding-bottom: 30px;" data-wow-delay="0.4s">
                 <a href="https://artivhub.org/"><img src="static/images/artivhub.png" alt="" class="experience-img" style="width: 20%;"></a>
                 
                 <h3 class="experience-txt" >Artiv hub</h3>
@@ -105,7 +129,7 @@
                 <p>Artiv Hub is a Kenyan recording stable and networking organisation that doubles up as an arts school</p>
                 <br>
             </div>
-            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 hvr-grow" style="padding-bottom: 30px;">    
+            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 hvr-grow wow fadeIn" data-wow-delay="0.5s" style="padding-bottom: 30px;">    
                 <a href="https://assolutaatelier.com/"><img src="static/images/assoluta.jpg" alt="" class="experience-img " style="width: 20%;"></a>
                 
                 <h3 class="experience-txt" >Assoluta atelier</h3>
@@ -113,8 +137,13 @@
                 <p>Assoluta Atelier is a dance, drama, music, art and play studio that offers children and adults programs devoted to the physical, emotional and social devolpment.</p>
                 <br>
             </div>
-            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 ">
+            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 wow fadeIn " data-wow-delay="0.6s">
+                <a href="https://assolutaatelier.com/"><img src="static/images/assoluta.jpg" alt="" class="experience-img " style="width: 20%;"></a>
                 
+                <h3 class="experience-txt" >Assoluta atelier</h3>
+                <h4 class="experience-position">Drums Teacher</h4>
+                <p>Assoluta Atelier is a dance, drama, music, art and play studio that offers children and adults programs devoted to the physical, emotional and social devolpment.</p>
+                <br>
             </div>
             
        
