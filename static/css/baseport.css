@@ -115,6 +115,7 @@ html {
   opacity: 0;
   transition: .5s ease;
   background-color: rgba(207, 187, 6, 0.986);
+  /* z-index: 2; */
 }
 
 .container1:hover .overlay {
