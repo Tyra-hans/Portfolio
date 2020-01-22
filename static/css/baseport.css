@@ -146,3 +146,24 @@ html {
   
   
 }
+.solid2 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.123),
+      rgba(0, 0, 0, 0.322)
+    ),url("/static/images/maroon.png");
+  /* opacity: 0.9; */
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  
+  
+}
+.vr{
+  
+  /* border:  solid rgb(145, 148, 145); */
+  height: 60px;
+  padding-left: 40px;
+
+}

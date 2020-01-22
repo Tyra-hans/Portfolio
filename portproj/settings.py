@@ -1,7 +1,11 @@
 import os
+import django_heroku
+import dj_database_url
+from decouple import config,Csv
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
 # Quick-start development settings - unsuitable for production
@@ -37,6 +41,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'portproj.urls'
@@ -52,6 +57,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.media',
             ],
         },
     },
@@ -114,14 +120,12 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 
-# sendgrid and zoho settings
-# SEND_GRID_API_KEY = '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'
-EMAIL_HOST = 'smtp.zoho.com'
-EMAIL_HOST_USER = 'tyrahans17@zohomail.com'
-EMAIL_HOST_PASSWORD = 'Daressalaam11'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-# DEFAULT_FROM_EMAIL = 'tyrahans17@gmail.com'
-ACCOUNT_EMAIL_SUBJECT_PREFIX = 'Contact email received from my portfolio website '
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+LOGIN_REDIRECT_URL = '/home'
+LOGOUT_REDIRECT_URL = '/'
+
+django_heroku.settings(locals())

@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/tyra/Desktop/my-projects/portfolio/virtual"
+set -gx VIRTUAL_ENV "/home/tyra/Desktop/con-desktop/my-projects/portfolio/virtual"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

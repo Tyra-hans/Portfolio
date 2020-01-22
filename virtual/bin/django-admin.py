@@ -1,4 +1,4 @@
-#!/home/tyra/Desktop/my-projects/portfolio/virtual/bin/python
+#!/home/tyra/Desktop/con-desktop/my-projects/portfolio/virtual/bin/python3
 from django.core import management
 
 if __name__ == "__main__":

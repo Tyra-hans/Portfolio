@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/tyra/Desktop/my-projects/portfolio/virtual"
+VIRTUAL_ENV="/home/tyra/Desktop/con-desktop/my-projects/portfolio/virtual"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
