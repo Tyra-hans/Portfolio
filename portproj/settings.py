@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'portapp',
     'bootstrap4',
+    # 'tracking',
 ]
 
 MIDDLEWARE = [

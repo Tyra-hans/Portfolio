@@ -22,8 +22,8 @@ html {
 
 .bg-img1 {
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.123),
-      rgba(0, 0, 0, 0.322)
+      rgba(0, 0, 0, 0.705),
+      rgba(0, 0, 0, 0.541)
     ),url("/static/images/tyrahans.jpg");
 
   height: 100%; 
@@ -32,6 +32,7 @@ html {
   background-size: cover;
   color: white;
   background-attachment: fixed;
+  /* filter: brightness(50%); */
  
   
 }
